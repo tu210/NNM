@@ -1,0 +1,43 @@
+/* public/assets/css/style.css */
+
+/* Tùy chỉnh nhỏ nếu cần */
+.student-img-thumbnail {
+    max-width: 80px; /* Giảm kích thước ảnh thumbnail trong bảng */
+    height: auto;
+    border-radius: 5px;
+}
+
+.detail-img {
+     max-width: 200px;
+     height: auto;
+     border-radius: 5px;
+     margin-bottom: 15px;
+}
+
+.action-links a {
+    margin-right: 5px; /* Khoảng cách giữa các link Edit/Details/Delete */
+    text-decoration: none;
+}
+.action-links a.btn-danger {
+    color: white; /* Đảm bảo chữ trên nút đỏ dễ đọc */
+}
+
+/* Căn giữa tiêu đề */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Thêm padding cho form */
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-label {
+    font-weight: bold;
+}
